@@ -1,0 +1,45 @@
+{
+  "id": "be-dragon-module-by-truthfool",
+  "title": "Be Dragon module by Truthfool",
+  "version": "4.0.1",
+"manifest": "https://github.com/vtnny6dcv6-a11y/be-dragon-foundry-module/releases/latest/download/module.json",
+"download": "https://github.com/vtnny6dcv6-a11y/be-dragon-foundry-module/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Truthfool",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "dragons",
+      "label": "Dragons",
+      "path": "packs/dragons",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pack-2",
+      "label": "Playable dragons",
+      "path": "packs/pack-2",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "description": "<p>This is the official module for the Be Dragon book I made. It has all the features needed to create your dragons for Dnd 5.5E or 5E. It is optimised for 5.5E.</p><p>Enjoy</p>",
+  "flags": {}
+}
